@@ -1,0 +1,26 @@
+div {
+    border: 1px solid black;
+}
+
+#contenedor {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 300px;
+  height: 300px;
+  perspective: 50px;
+}
+
+
+#transformado {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  transform: translate3d(-20px, 30px, 5px);
+  /*transform: translate(200px, -79px); Jiro hacia derecha/(-)isquierda, ariba/(-)abajo dependiendo de su signo.
+    transform: translateX(); Hacia derecha o izquierda
+    transform: translateY(); Hacia arriba o abajo
+    transform: translateZ(); Hacia enfrente
+  */
+}

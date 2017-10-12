@@ -1,0 +1,27 @@
+/*HAGO REFERENCIA A TODODS LOS COMPONENETES DE MI "DIV"; MEDIDAS, COLOR, PERO TAMBIEN HAGO REFERACIA A MI "-WEBKIT-KEYFRAMES"; ESTO PORQUE
+  DESDE MI "WEBKYT" NO PUEDO REFERENCIARLO A ALGUN OBEJTO(DIV). POR ESOS ESCRIBO: transition: 1s; animation: miAnimacion 3s; EL PRIMERO INDICA
+  LA TRASICION DE "1S" Y EL SEGUNDO MANDA A LLAMAR A MI "WEBKIT" Y LE DA SU TIEMPO DE ANIMACION.
+*/
+#contenedor1{
+  width: 1000px;
+  height: 500px;
+  border: 2px solid;
+  margin: auto;
+  background-color: yellow;
+  text-align: center;
+  transition: 1s;
+  animation: miAnimacion 3s infinite;
+}
+
+/*Este "-webkit" hace refencia que va a empesar de un punto(from) y se dirige a otro(to), dandole desde el punto de salida una rotacion de
+  45 grados y se dirigira a su ancho con valor de (0), cambiando de color amarillo a negro en la transicion de 3s.
+*/
+@-webkit-keyframes miAnimacion{
+  from{
+    transform: rotate(45deg);
+  }
+  to{
+    height: 0;
+    background-color: black;
+  }
+}

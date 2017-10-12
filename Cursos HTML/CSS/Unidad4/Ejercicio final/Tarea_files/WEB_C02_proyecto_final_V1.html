@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!-- saved from url=(0163)https://s3.amazonaws.com/nextu-content-production/Desarrollador_Web/02_CSS_Diseno_Web_Responsive/Componentes_del_Curso/final_project/WEB_C02_proyecto_final_V1.html -->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<title>Proyecto Final</title>
+	<!-- Modernizr -->
+	<script src="./modernizr-2.6.2.min.js"></script>
+	<link href="./css" rel="stylesheet" type="text/css">
+	<!-- jQuery-->
+	<script type="text/javascript" src="./jquery-1.10.2.min.js"></script>
+	<!-- framework css -->
+	<!--[if gt IE 9]><!-->
+	<link type="text/css" rel="stylesheet" href="./groundwork.css">
+	<!--<![endif]-->
+	<!--[if lte IE 9]>
+	<link type="text/css" rel="stylesheet"
+		  href="https://s3.amazonaws.com/nextu-content-production/Desarrollador_Web/Plantillas_Web/recursos_html/css/groundwork-core.css">
+	<link type="text/css" rel="stylesheet"
+		  href="https://s3.amazonaws.com/nextu-content-production/Desarrollador_Web/Plantillas_Web/recursos_html/css/groundwork-type.css">
+	<link type="text/css" rel="stylesheet"
+		  href="https://s3.amazonaws.com/nextu-content-production/Desarrollador_Web/Plantillas_Web/recursos_html/css/groundwork-ui.css">
+	<link type="text/css" rel="stylesheet"
+		  href="https://s3.amazonaws.com/nextu-content-production/Desarrollador_Web/Plantillas_Web/recursos_html/css/groundwork-anim.css">
+	<link type="text/css" rel="stylesheet"
+		  href="https://s3.amazonaws.com/nextu-content-production/Desarrollador_Web/Plantillas_Web/recursos_html/css/groundwork-ie.css">
+	<![endif]-->
+
+	<!-- snippet (syntax highlighting for code examples)-->
+	<script type="text/javascript" src="./jquery.snippet.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="./jquery.snippet.css">
+	<link type="text/css" rel="stylesheet" href="./estilos.css">
+
+
+<style type="text/css">  [data-truncated="true"] { overflow: hidden; }  [data-truncated="true"]:after { content: "..."; position: absolute; }</style></head>
+
+<body style="">
+
+<div class="container">
+	<div class="padded">
+		<div class="row">
+			<div class=" one whole bounceInDown animated">
+				<h2 class="quicksand titulo box square double-padded lato" style="letter-spacing: 1.5px">
+					<img src="./caja_codigo.png" width="40px" style="position: relative; top: 5px">
+                    <span class="lato" style="font-weight: 100; font-style: normal; color: #fbfbfb;">Preparado para el reto</span>
+					<strong class="lato" style="font-weight:bolder ; font-style: normal; letter-spacing: 1.2px">Web de
+						Fotografía</strong>?
+				</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="one whole padded fadeInLeft animated" style="font-size: 15px;">
+				<h2>Objetivo</h2>
+
+				<p>
+					Con todas las facilidades que existen en la actualidad para capturar imágenes, cada vez existen más
+					personas interesadas en el fascinante mundo de la fotografía, es por ello que para este proyecto
+					tendrás que desarrollar un sitio web responsivo para fotógrafos principiantes donde puedan exponer
+					su originalidad, creatividad y técnica al tomar fotografías. El sitio <strong>Comenzando con la
+					Fotografía</strong> te permite poner en práctica lo aprendido en este curso, a continuación te
+					detallamos la lista de requerimientos que debe cumplir tu proyecto.
+				</p><hr>
+				<p></p>
+				<h2>Requerimientos</h2>
+
+				<div class="row">
+					<div class="one half">
+						<p><img style="vertical-align: text-top" width="15px" src="./uno.png"> Diagrama una página principal <strong>index.html</strong> tomando en
+							cuenta las siguientes especificaciones:
+						</p>
+
+						<ol>
+							<li><strong>Cabecera</strong> esta sección debe contener la información del sitio, toma en
+								cuenta lo siguiente:
+							</li>
+							<ul>
+								<li>Establece el fondo de color #5b7989.</li>
+								<li>Agrega el Nombre del sitio "Comenzando con la fotografía" ubicado al lado izquierdo,
+									en blanco la letra debe tener una sombra de 2px de color #02010a. </li>
+								<li>Aplica bordes redondeados en las esquinas superiores a 10px.</li>
+								<li>Desarrolla un menú, para la versión desktop, a la derecha con enlaceas a tres
+									páginas: Inicio, Paisajes, Retratos. La página actual debe tener estilo sin subrayado. </li>
+							</ul>
+
+							<li><strong> Imagen Central </strong> en esta sección debes ubicar una imagen de tu
+								preferencia, considera lo siguiente:
+							</li>
+							<ul>
+								<li>Esta secccion debe tener la imagen centrada.</li>
+								<li>Establece como color de fondo #82c3a6.</li>
+							</ul>
+
+							<li><strong> Imagen Secundaria </strong> en esta sección debes ubicar dos imágenes de tu
+								preferencia, debajo de la imagen central una a la derecha y otra a la izquierda ten en cuenta lo siguiente:
+								siguiente:
+							</li>
+							<ul>
+								<li> Esta sección es a dos columnas usando flex para desktop y una columna para móvil
+								</li>
+								<li> Aplica como color de fondo #d5c75f y un borde de 1px.</li>
+								<li> Cada columna debe tener una imagen centrada y enlazar: la <strong>izquierda "paisajes"</strong> aplica un
+                                 efecto de <strong>rotación</strong> de 10 grados cuando se coloca el puntero sobre ella, agrega color de 
+                                 sombra #82c3a6 y borde 2px y la <strong>derecha "retratos"</strong> aplica un efecto de <strong>traslación 
+                                 </strong> de 5px hacia arriba y 20px a la derecha cuando se coloca el puntero del ratón sobre ella agrega 
+                                 color de sombra #82c3a6 y borde 2px.
+							</li>
+                            </ul>
+							<li><strong> Pie de página </strong> en esta sección debes ubicar información de contacto,
+								términos, redes sociales, y derechos, aplica las siguientes consideraciones: </li>
+							<ul>
+                            	<li>Aplica bordes redondeados en las esquinas inferiores a 10px.</li>
+								<li>El pie debe estar a cuatro columnas en desktop y una columna en móvil.</li>
+								<li>Aplica el color de fondo #C6d5c5.</li>
+								<li>La columna de contacto debe contener un correo electrónico, una dirección física y
+									un número telefónico. </li>
+								<li>En la columna de término agrega una frase corta referente a las políticas.</li>
+								<li>En la columna de Redes Sociales, agrega tres de tu preferencia.</li>
+								<li>En la columna de Derechos agrega tu nombre, apellido, el símbolo de CopyRight y el
+									año actual. </li>
+							</ul>
+						</ol>
+					</div>
+					<div class="one half">
+						<img width="100%" src="./layout1.png">
+                             <div class="padded">
+                             <h2 class="padded">Consideraciones Generales</h2>
+                             <ol class="padded">
+                             <li>Utiliza la tipografía Dancing Script. </li>
+                             <li>Establece el color de fondo negro  #02010a. </li>
+                             <li>Cada imagen tiene un efecto de sombra de 2px con color #02010a.</li>
+                             <li> Crea un div llamado contenido que este centrado y que tenga máximo 900px de ancho para desktop y ocupará el 100% para móviles. </li>
+							<li> Utiliza media queries para manejar dos tamaños Desktop: con ancho de 900px o más y móvil con menos de 900px.</li> 
+ 							<li>Las imágenes deben ser responsivas. </li>
+                            
+							</ol>
+                           </div>
+					</div>
+				</div>
+          
+
+
+				<br>
+				<hr>
+
+				<div class="row">
+					<div class="one half">
+						<img width="100%" src="./layout2.png">
+					</div>
+					<div class="one half">
+
+						<p class="padded"><img style="vertical-align: text-top" width="15px" src="./dos.png"> Diagrama las páginas <strong>"paisajes.html" y
+							"retratos.html"</strong> tomando en cuenta las siguientes especificaciones:
+						</p>
+						<ol>
+                    <li>Sigue las instrucciones anteriores para la <strong>cabecera</strong> agrega el título de la página (paisajes o retratos) y actualiza los cambios de estilo de la página a actual en el menú.</li>
+                    <li>Para la sección de la <strong>galería</strong> selecciona al menos una imagen de tu preferencia sobre paisajes o retratos según sea el caso. </li>
+                    <ul>
+                    <li>La <strong>galería</strong> debe mostraste en tres columnas para desktop y en una para móvil, sigue las siguientes consideraciones para los efectos de las imágenes:</li>
+                    
+                    <li> Para la imagen 1, aplica el efecto blur de 10px. </li>
+                    <li> Para las imágenes 2,4,6 (pares) aplica escala de grises al 100%. </li>
+                    <li> Para la imagen 3, aplica el efecto sepia de 90%. </li>
+                    </ul>
+                   <li> <strong> Pie de página </strong> en esta sección debes ubicar información de contacto, términos, redes sociales, y derechos, aplica las siguientes consideraciones:</li>
+                        <ul>
+                        <li>Aplica bordes redondeados en las esquinas inferiores a 10px.</li>
+                     	<li>El pie debe estar a cuatro columnas en desktop y una columna en móvil.</li>
+                        <li>Aplica el color de fondo #C6d5c5. </li>
+                        <li>La columna de contacto debe contener un correo electrónico, una dirección física y un número telefónico.</li>
+                        <li>En la columna de término agrega una frase corta referente a las políticas.</li>
+                        <li>En la columna de Redes Sociales, agrega tres de tu preferencia.</li> 
+                        <li>En la columna de Derechos agrega tu nombre, apellido, el símbolo de CopyRight y el año actual. </li>
+                        </ul> 
+                    </ol>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<br>
+		<hr>
+		<div>
+       	<p>
+        A continuación te presentamos dos videos para que tengas una guía de cómo debe lucir tu proyecto, ten en cuenta las siguientes consideraciones: 
+        </p><ol>
+        <li> Solo para la versión <strong>móvil</strong> muestra centrado el menú y debajo del título. </li>
+		<li> Para <strong>ambas</strong> versiones el header debe tener una animación de slidein (debe venir de abajo hacia arriba y rebotar) está  animación debe hacerse variando el margin-top de 150% a -5% y luego a 0%, en los momentos 0%, 60% y 100% respectivamente. </li>
+		</ol>
+        <p></p>
+        </div>
+
+		<div class="row">
+			<div class="align-center one half">
+            <br>
+            <br>
+            <br>
+				<video autoplay="" loop="" width="100%">
+					<source src="desktop.mp4" type="video/mp4"> 
+				</video>
+			</div>
+			<div class="align-center one half">
+				<video autoplay="" loop="" width="50%">
+					<source src="movil.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+
+		<br>
+		<hr>
+
+		<div class="row">
+			<div class="align-center one half">
+				VERSIÓN DESKTOP
+			</div>
+			<div class="align-center one half">
+				VERSIÓN MÓVIL
+			</div>
+		</div>
+
+	</div>
+	<div class="padded  fadeInUp animated ">
+		<div class="row ">
+			<div class="one whole ">
+				<h2 class="quicksand titulo box square double-padded lato" style="letter-spacing: 1.5px">
+					<span class="lato" style="font-weight: 100; font-style: normal; color: #fbfbfb;">Instrucciones para la</span>
+					<strong class="lato" style="font-weight:bolder ; font-style: normal; letter-spacing: 1.2px">entrega</strong>
+				</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="one whole padded" style="font-size: 15px;">
+				<p> Una vez hayas completado el proyecto, comprime la carpeta con los archivos y súbela al curso. Sigue
+					los siguientes pasos para completar esta sección correctamente: </p>
+				<ol>
+                <li> En la carpeta comprimida agrega tu proyecto con todos los recursos necesarios para su funcionamiento y un archivo <strong>github_url.txt</strong> que contenga el URL de tu proyecto versionado en el repositorio. Recuerda que haciendo uso de Git Hub podrás ir creando tu portafolio de aplicaciones web. </li>
+					<li> Utiliza el siguiente nombre para el zip de la entrga: <strong>NombreDelCurso_PrimerNombre_PrimerApellido.zip</strong>.
+						Es muy importante que la carpeta lleve tu primer nombre y apellido para poder identificarlo correctamente.
+					</li>
+					<li>
+						Para subir el ZIP al curso, sigue los siguientes pasos:
+						<ul style="list-style-type:disc">
+							<li>Accede a la página <strong>Evaluación Final</strong>.</li>
+							<li>Haz clic en <strong>Añadir envío</strong> (hasta el final de la página).</li>
+							<li>Agrega una descripción en la sección Texto en línea y <strong>Adjunta la Carpeta
+								Comprimida</strong> en la sección Envíos de archivo.
+							</li>
+							<li>Haz clic en <strong>Guardar Cambios</strong>.</li>
+						</ul>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!-- javascript-->
+<script type="text/javascript" src="./groundwork.all.js"></script>
+<script src="./iframeResizer.contentWindow.min.js" type="text/javascript"></script>
+
+
+<div style="clear: both; display: block;"></div></body></html>

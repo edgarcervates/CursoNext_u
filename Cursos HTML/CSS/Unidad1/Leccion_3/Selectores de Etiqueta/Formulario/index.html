@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+
+  <body>
+    <h1>Rgistro de nuestra Tienda</h1>
+    <form>
+      <p>
+        <label for="nombreusuario">Nombre de Usuario</label>
+        <br>
+        <input type="text" name="nombreusuario" placeholder="Ej:Emmanuel" required autofocus>
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <br>
+        <input id="email" type="email" name="email" placeholder="Ej: eecs753@gmial.com" requiered autofocus>
+      </p>
+      <p class="nth-child">
+        <label for="edad">Edad</label>
+        <br>
+        <input class="nth-child" type="number" name="edad" placeholder="Ej: 18">
+      </p>
+      <p>
+        <label for="fechanacimiento">Fecha de Nacimiento</label>
+        <br>
+        <input type="date" name="fechanacimiento">
+      </p>
+      <p>
+        <label for="genero">Genero</label>
+        <br>
+        <input type="radio" name="genero">Masculino
+        <br>
+        <input type="radio" name="genero">Femenino
+      </p>
+      <p>
+        <label for="selector">Recomendado Por:</label>
+        <select name"selector">
+          <option value="1">Google</option>
+          <option value="1">Safari</option>
+          <option value="1">Otro</option>
+        </select>
+      </p>
+      <p>
+        <label for="comentario">Comentarios:</label>
+        <br>
+        <textarea id="areatexto" name="name"></textarea>
+      </p>
+      <p>
+    		<label for="accept">Acepto terminos y condiciones: </label>
+    		<br>
+    		<input type="checkbox" name="accept">
+    	</p>
+
+    	<p>
+    		<input type="submit" value="Registrar">
+    	</p>
+    </form>
+  </body>
+</html>

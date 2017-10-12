@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registro De Tienda</title>
+  </head>
+
+
+
+  <body>
+    <h1>Registro En Nuestra Tienda</h1>
+    <form >
+        <p>
+          <label for="NombreUsuario">Nombre de usuario</label>
+          <input type="text" id="NombreUsuario" placeholder="Ej: luis">
+        </p>
+        <p>
+          <label for="Email">Email:</label>
+          <input type="text" id="Email" placeholder="Ej: eecs753@gmail.com">
+        </p>
+        <p>
+          <label for="Edad">Edad:</label>
+          <input type="number" id="Edad" placeholder="Ej: 18">
+        </p>
+        <p>
+          <label for="Genero">Genero:</label>
+            <br>
+            <input type="radio" name="Genero"><b>Masculino</b>
+            <br>
+            <input type="radio" name="Genero"><b>Femenino</b>
+        </p>
+        <p>Recomendado por:
+          <label for="Recomendado"></label>
+          <select>
+            <option>Google</option>
+            <option>Safari</option>
+            <option>Otro</option>
+          </select>
+        </p>
+        <p>Comanetarios:
+          <textarea name="name" rows="8" cols="80"></textarea>
+        </p>
+        <p>Acepto terminos y condiciones:
+          <label for="Terminos"></label>
+          <input type="checkbox" name="Terminos">
+        </p>
+        <input type="submit" value="Registrarse">
+    </form>
+  </body>
+</html>

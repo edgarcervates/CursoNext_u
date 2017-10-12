@@ -1,0 +1,12 @@
+.contenedor{
+  width: 900px;
+  text-align: center;
+  background-color: green;
+}
+
+.imagen1 img{
+  width: 20px;
+  height: auto;
+  margin: auto;
+  display: block;
+}

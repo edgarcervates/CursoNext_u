@@ -1,0 +1,128 @@
+/* Estilos Principales */
+
+.titulo {
+    background-color: #00bff0;
+    color: white;
+}
+
+a.boton-continuar, .boton-continuar:hover{
+    color: white;
+    background-color: #00bff0;
+    border: 1px solid #00bff0;
+}
+
+.boton-respuesta {
+    color: black;
+    background-color: white;
+    border: 1px solid #00bff0;
+}
+
+.boton-respuesta:hover {
+    color: white;
+    background-color: #00bff0;
+    border: 1px solid #00bff0;
+}
+
+
+/* Solo para el asociar */
+
+.cuadro-de-respuesta {
+    color: black;
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+}
+
+.cuadro-de-respuesta-adentro {
+    color: black;
+    background-color: white;
+    border: 1px solid #00BFD5;
+}
+
+
+
+
+
+
+
+
+
+
+/* Estilos Secundarios */
+
+button.box.green {
+    background-color: #8dc63f;
+    border: 1px solid #8dc63f;
+}
+
+.box.green {
+    background-color: #8dc63f;
+    border: 1px solid #8dc63f;
+}
+
+button.green:hover {
+    background-color: #8dc63f;
+    border: 1px solid #8dc63f;
+}
+
+
+.message.success {
+    color: #8dc63f;
+}
+
+
+
+
+
+
+
+/* Estilos Complementarios */
+
+.spacing1-5 {
+    letter-spacing: 1.5px;
+}
+
+.image1 {
+    position: relative;
+    top: 5px;
+}
+
+.sentence-1 {
+    font-weight: 100;
+    font-style: normal;
+    color: #fbfbfb;
+    padding-left: 5px
+}
+
+.sentence-2 {
+    font-weight: bolder;
+    font-style: normal;
+    letter-spacing: 1.2px
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.titulo-seccion {
+    border-bottom: 4px solid #00BFD5;
+}
+
+.titulo-subseccion {
+    color: white;
+    position: relative;
+    bottom: 4px;
+    padding: 10px;
+}
+
+.lista-especial {
+    list-style-type: decimal-leading-zero;
+
+}
+
+.lista-especial li {
+    color: #00BFD5;
+}
+
+.color-texto {
+    color: #2b2b2d;
+}

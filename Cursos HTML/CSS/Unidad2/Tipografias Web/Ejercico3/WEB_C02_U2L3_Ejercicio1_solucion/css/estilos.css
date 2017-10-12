@@ -1,0 +1,43 @@
+/*Agrega una nueva definición de fuente llamada "FuenteLato" con src:"url(../fuentes/Lato-Regular.ttf)";.*/
+@font-face {
+	font-family: FuenteLato;
+	src: url(../fuentes/Lato-Regular.ttf);
+}
+
+/*Cambia en el archivo estilos.css la fuente predeterminada del cuerpo a "Lora".*/
+body{
+	margin: 20px;
+	font-family: Lora;
+}
+
+.resaltado{
+	background-color: yellow;
+	color: black;
+}
+
+/*Cambia el font-style del menú principal a italic.*/
+#menu-principal{
+	font-family: FuenteLato;
+	font-style: italic;
+
+
+	padding: 10px 0px;
+}
+
+footer{
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/*Usa la fuente "FuenteLato" en el div cuyo id es menu-principal y en el selector h1.titulo,
+ para que el menú y el título tengan esta fuente.
+ Asigna la propiedad font-variant con valor small-caps al título.
+*/
+h1.titulo{
+	font-family: FuenteLato;
+	font-variant: small-caps;
+	background-color: aliceblue;
+	text-align: center;
+	padding: 10px;
+}

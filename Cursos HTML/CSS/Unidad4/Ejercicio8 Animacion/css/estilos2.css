@@ -1,0 +1,41 @@
+#contenedor{
+  width: 1000px;
+  height: 500px;
+  border: 2px;
+  margin: auto;
+  background-color: yellow;
+  text-align: center;
+  transition: 1s;
+}
+
+.circulo{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50px;
+  margin: auto;
+  float: left;
+  animation: Animacion2 5s;
+}
+
+@-webkit-keyframes Animacion2{
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+    float: right;
+  }
+  50%{
+    opacity: 0.50;
+    float: left;
+  }
+  75%{
+    opacity: 0.75;
+    float: right;
+  }
+  100%{
+    opacity: 1;
+    float: left;
+  }
+}

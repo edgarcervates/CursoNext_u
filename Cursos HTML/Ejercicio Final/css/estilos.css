@@ -1,0 +1,55 @@
+body{
+  background-color: black;
+}
+
+.contenido{
+  border: auto;
+  display: block;
+  width:900px;
+
+}
+
+.inicial{
+  text-decoration: none;
+}
+
+header{
+  background-color: #5b7989;
+  background: #333;
+	color: white;
+	height: 80px;
+}
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+  background-color: white
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+
+		nav ul li {
+			display: inline-flex;
+			line-height: 80px;
+		}
+
+			nav ul li a {
+				display: inline-flex;
+				padding: 0 10px;
+				text-decoration: underline;
+			}
+
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+
+.contenedor_img{
+  width: 900px;
+  
+  background-color: red;
+}
